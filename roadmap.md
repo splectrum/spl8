@@ -36,8 +36,9 @@ A self-contained repo, no other tools:
 
 **3. First slices, in parallel.**
 Every task has the same shape: natural language in, a component runs, natural
-language out, stored in the git repo. So independent tracks run side by side,
-each as its own agent session:
+language out, stored in the git repo. The first slices are independent code
+blocks with no dependencies between them, so they can be done in any order or
+interleaved, by us together or by separate agents:
 
 - **Mycelium.** In-memory, transient git objects (blob, tree, commit, ref) and
   normal commands to create, read and commit them.
