@@ -34,14 +34,29 @@ A self-contained repo, no other tools:
 - instrumentation from the first line of code;
 - a first deterministic narrative tool turning the event log into prose.
 
-**3. First slice, first bundle.**
-- In-memory, transient git objects: blob, tree, commit, ref.
-- Normal commands to create, read and commit them.
-- Every operation instrumented.
-- Given as the first requirement in the new form, an execution talked through
-  in natural language, and run through the whole loop to produce the first
-  bundle. Autonomy rung 1: implementation automated, interpretation confirmed
-  and bundle reviewed by the human.
+**3. First slices, in parallel.**
+Every task has the same shape: natural language in, a component runs, natural
+language out, stored in the git repo. So independent tracks run side by side,
+each as its own agent session:
+
+- **Mycelium.** In-memory, transient git objects (blob, tree, commit, ref) and
+  normal commands to create, read and commit them.
+- **Docker nodes.** The deploy → run → teardown stack with a minimal node,
+  first running the Mycelium commands in a container. No P2P yet.
+- **P2P node.** The spl6 primitives re-established on current Bare: peers
+  connecting on a private testnet, without the deprecated `pear run`.
+
+Every operation is instrumented. Each slice is given as a requirement in the
+new form, an execution talked through in natural language, and runs the whole
+loop to a bundle. Autonomy rung 1: implementation automated, interpretation
+confirmed and bundles reviewed by the human.
+
+The tracks meet once the node core holds Mycelium plus the swarm connection
+and runs inside the stack. The meeting points are given as narrated executions
+too.
+
+Each task's status lives in its own folder, and the queue overview is
+generated from the folders, so parallel tracks never edit the same file.
 
 ## Next
 
