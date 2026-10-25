@@ -53,15 +53,17 @@ processes, emits to its own log — push, not poll. (spl6 phase 6)
   claim about how current AI works.
 - **Phase-per-folder journey.** See `practices/conventions.md`.
 
+## Agreed since
+
+- **The stack** — git objects first: `base-layer.md`.
+- **Natural language as authority**: `natural-language.md`. Still to reconcile
+  with the authority split above.
+- **Components and agents**: `components-and-agents.md`.
+- **Git in node repos** — transactions, mounts, multi-writer: `node-git.md`.
+
 ## Open
 
-- **The stack** — direction agreed, git objects first: `base-layer.md`.
-- **Natural language as authority** — agreed: `natural-language.md`. Still to
-  reconcile with the authority split above.
-- **Components and agents** — agreed: `components-and-agents.md`.
 - **The read model** for streams — HAICC triggers depend on it.
-- **Cross-owner references** — pinning to commit / sequence.
-- **Multi-writer** for shared circle state — owner-mediated merge or Autobase.
 - **Bridgehead form** — Docker + Linux FUSE vs Pear's no-install promise.
 - **Interop at the edges** — mapping protocols/personas to MCP / A2A at the
   boundary of a circle, without adopting them internally.
