@@ -10,6 +10,7 @@ becomes that repo's `CLAUDE.md` and rules.
 | `autonomy.md` | The boundary: who decides what, where the human meets the AI |
 | `gate.md` | The definition of done — how work verifies itself |
 | `conventions.md` | What carries over from spl6/spl7, what changes, what is new |
+| `requirements.md` | Requirements as natural-language executions |
 
 ## The shift from spl7
 

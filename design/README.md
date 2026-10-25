@@ -58,6 +58,7 @@ processes, emits to its own log — push, not poll. (spl6 phase 6)
 - **The stack** — direction agreed, git objects first: `base-layer.md`.
 - **Natural language as authority** — agreed: `natural-language.md`. Still to
   reconcile with the authority split above.
+- **Components and agents** — agreed: `components-and-agents.md`.
 - **The read model** for streams — HAICC triggers depend on it.
 - **Cross-owner references** — pinning to commit / sequence.
 - **Multi-writer** for shared circle state — owner-mediated merge or Autobase.
