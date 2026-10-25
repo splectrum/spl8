@@ -21,6 +21,7 @@ one against the practices and design agreed here.
 | `practices/` | The working practices being agreed for the engineering repo |
 | `design/` | The distillation — settled, superseded, open — and new design |
 | `probes/` | Small grounding experiments, each with a committed run log |
+| `roadmap.md` | The roadmap, planned logarithmically |
 | `open-questions.md` | Everything still to decide, in one place |
 
 ## Exit condition
