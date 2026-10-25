@@ -55,7 +55,9 @@ processes, emits to its own log — push, not poll. (spl6 phase 6)
 
 ## Open
 
-- **The base layer** — being designed now: `base-layer.md`.
+- **The stack** — direction agreed, git objects first: `base-layer.md`.
+- **Natural language as authority** — agreed: `natural-language.md`. Still to
+  reconcile with the authority split above.
 - **The read model** for streams — HAICC triggers depend on it.
 - **Cross-owner references** — pinning to commit / sequence.
 - **Multi-writer** for shared circle state — owner-mediated merge or Autobase.
