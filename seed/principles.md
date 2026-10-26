@@ -44,6 +44,13 @@ historicity. The inside principles hold within a single self-contained seed.
 2. **A test is a way of processing execution data.** Execution data can be
    read for a verdict, a narrative or a diagnosis; a test is the reading that
    gives a verdict.
+3. **Private instance data is its own subject, in its own repository.** A
+   unit's repository describes the private data it needs — config schema,
+   meaning, examples — and holds none. A running instance is a different
+   being, owned by its operator: its config, instance data and secrets live
+   in a private instance repository, committed with history like any state.
+   Visible means visible to the owning subject, not public. Secrets are
+   encrypted within that repository, never kept as hidden state outside it.
 
 Below the principles, a seed's internals have two further layers, both
 choices rather than principles:
