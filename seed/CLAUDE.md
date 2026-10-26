@@ -8,8 +8,7 @@ for the state model and the phase lifecycle.
 
 - **Logical space.** Discuss first; write what has settled. Leave moving parts
   explicitly open.
-- **Logarithmic planning.** Detailed for the next phases, sketched further out,
-  only named at the horizon. Don't overplan.
+- **Principles.** `principles.md` governs; planning is PRINCE2-style.
 - **Natural language first.** Prose wherever people or agents read; fixed
   points only where agents must act consistently.
 - **Ask in prose.** No option pickers.

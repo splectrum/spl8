@@ -22,3 +22,7 @@ belongs.
 - isomorphic-git underneath, or fully custom.
 - Bridgehead form: Docker and FUSE versus an embedded Bare node.
 - Interop at the edges of a circle.
+- Translation between natural language and a unit's internals: whether the
+  SPLectrum DSL engine is revisited as that layer.
+- The mobile node runtime: Bare's mobile runtime in an app, or Termux on
+  Android first.

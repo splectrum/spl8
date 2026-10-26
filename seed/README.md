@@ -39,7 +39,8 @@ A phase runs in its own dev env repo, executed by one Claude cloud session.
 | Path | What lives there |
 |---|---|
 | `CLAUDE.md` | How to work in this repo |
-| `roadmap.md` | The plan, logarithmic: detailed near, sketched further out |
+| `principles.md` | Operational principles, outside and inside a seed |
+| `roadmap.md` | The plan, PRINCE2-style: products first, staged |
 | `queue/` | Queued phase requests |
 | `design/` | Settled design, and design still open |
 | `practices/` | Working practices, including the dev env repo practice |
