@@ -75,7 +75,7 @@ automation assembled from them, as the check that none is missing.
 
 ## Later
 
-- Mycelium: the layers above the git repository (`design/base-layer.md`).
+- Mycelium: the layers above the git repository.
 - Persistence behind git: filesystem, then Hyperdrive.
 - Translation between natural language and a unit's internals.
 - The working practice moves onto node components.

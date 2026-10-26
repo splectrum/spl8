@@ -56,6 +56,6 @@ Below the principles, a seed's internals have two further layers, both
 choices rather than principles:
 
 - **Stack:** git with XPath over the trees for now. Mycelium and its layers
-  above git come later (`design/base-layer.md`).
+  above git come later.
 - **Prerequisites:** the framework seeds run on — P2P nodes, Docker, and for
   now Claude cloud sessions.

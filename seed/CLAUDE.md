@@ -1,22 +1,20 @@
-# CLAUDE.md — SPLectrum roadmap repo
+# CLAUDE.md — SPLectrum roadmap
 
-This repo plans phases, holds the settled design and practices, and records
-executed phases. Code is written in dev env repos, never here. See `README.md`
-for the state model and the phase lifecycle.
+This repository plans SPLectrum engineering. `principles.md` governs;
+`request.md` is the request this repository grows from.
 
-## Working here
-
-- **Logical space.** Discuss first; write what has settled. Leave moving parts
-  explicitly open.
-- **Principles.** `principles.md` governs; planning is PRINCE2-style.
-- **Natural language first.** Prose wherever people or agents read; fixed
-  points only where agents must act consistently.
-- **Ask in prose.** No option pickers.
-- **State model.** The tree is current state. Discussions, plan revisions and
-  executed phases are recorded in commit messages and dropped from the tree.
+- **Autonomy first.** Collaboration only where required — meaning, missing or
+  inaccessible information, any exception that halts the work — and
+  collaboration is discussion: discuss first, write what has settled.
+- **PRINCE2, as far as needed.** No bureaucracy; commits and repositories
+  carry what documents would.
+- **KISS.**
+- **Natural language; ask in prose.**
+- **Every product is a subject, so a repository.** Code is written in
+  product repositories, never here.
 
 ## Commits
 
-Few, at checkpoints the human calls — never per edit. Hold edits until the
-checkpoint, then make them and commit once. The commit message records what
-was discussed and decided, distilled.
+A state change becomes visible through a commit. When a discussion settles
+into a change, write it and commit, with the discussion that led to it
+distilled into the message.
