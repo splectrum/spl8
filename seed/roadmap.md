@@ -29,11 +29,27 @@ the test loop.
 
 ## Next
 
-- Probe: a Bare node with its git store and a local HTTP server running on a
-  phone.
-- Capabilities 1–5, each as one or more stages.
-- Home automation assembled from the capabilities, as the check that none is
-  missing.
+**First stage: research the capabilities.** For each of the five, establish
+what exists, what we build, and the risks — by research and by probes.
+
+**Connectivity is tested as part of it.** The options, each a probe with a
+phone on mobile data as the hard case:
+
+- Direct holepunching between nodes over the public HyperDHT.
+- A home node reachable from outside (public IP, forwarded UDP port,
+  dynamic DNS) acting as private bootstrap and blind relay. Fails under
+  CGNAT.
+- A cheap VPS in the same role, when the home connection is not reachable.
+- Cloudflare at the edges only: Tunnel and Access for remote reach of a
+  node's UI, Durable Objects as a WebSocket rendezvous, R2 for backups,
+  Artifacts (closed beta) for git. Cloudflare cannot host a peer: no UDP in
+  Workers, no inbound UDP in Containers, Spectrum UDP is Enterprise only.
+
+Also in this stage: a Bare node with its git store and local HTTP server
+running on a phone.
+
+**Then:** capabilities 1–5 built, each as one or more stages; home
+automation assembled from them, as the check that none is missing.
 
 ## Later
 
